@@ -1,0 +1,25 @@
+.news {
+width: 100%;
+display: table;
+}
+.news_aside {
+width: 250px;
+display: table-cell;
+vertical-align: top;
+}
+.news-item {
+text-align: center;
+}
+.news_content {
+    display: table-cell;
+}
+.news-item .image_list {
+/* width: 100%; */
+float: left;
+margin: 0px 20px 30px 0px;
+}
+.text_list {
+    /* width: 100%; */
+    margin-bottom: 200px;
+    color: violet;
+}

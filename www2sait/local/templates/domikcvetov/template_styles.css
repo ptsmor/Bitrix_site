@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/*
+	@media screen and (min-width: px) and (max-width: px) {
+		
+	}
+	font-family: 'PT Serif', serif;
+	
+	-webkit-box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5),0 1px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5),0 1px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.3),0 1px 0 rgba(0,0,0,0.1);
+	
+	-webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+*/
+html, body {margin:0; padding:0;
+    font-family: 'Conv_HypatiaSansPro-Regular_0';}
+body {}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Conv_HypatiaSansPro-Bold_0';
+}
+a img {border:none;}
+a {
+    color: #c2bee2;
+}
+a:hover {}
+header, footer, section, article, aside { display: block;}
+.clb {clear:both;height:0px;}
+.container {
+    max-width: 1200px;
+    min-width: 1000px;
+    margin: 0px auto;
+}
+
+.header {
+width: 100%;
+height: 100px;
+background: url('images/header_background_origine.jpg') left;
+}
+a.top_logo {
+    float: left;
+    margin: 0px;
+    display: block;
+    padding-top: 20px;
+}
+
+.bsk {
+float: right;
+background: rgba(41, 105, 165, 0.74);
+padding: 5px;
+margin-top: 15px;
+}
+.bsk_in {
+    border: 2px #6f63db dashed;
+    color: #fff;
+    }
+.bsk p {
+margin: 0px;
+padding: 0px;
+font-family: 'Conv_HypatiaSansPro-Semibold_0';
+}
+.bsk span {
+display: block;
+font-family: 'Conv_HypatiaSansPro-Regular_0';
+color: #fff;
+}
+
+/* .slider {
+    width: 100%;
+    height: 500px;
+    background: #f0f0f0;
+} */
+.content {
+    /* min-height: 1200px; */
+    /* width: 200px; */
+    /* background: red; */
+}
+
+/* .prefooter {
+    height: 1000px;
+    width: 200px;
+    background: red;
+} */
+/* .prefooter {
+    height: 1000px;
+} */
+
+
+
+.bsk span a {
+    color: #fff;
+}
+.footer {
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; */
+    height: 250px;
+    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+
+}
+a.bottom_logo {
+    float: left;
+    /* margin: 0px; */
+    display: block;
+    /* padding-top: 60px; */
+    
+}
+.adress {
+    float: right;
+    text-align: center;
+    /* background: rgba(41, 105, 165, 0.74); */
+    /* padding: 15px;
+    margin-top: 15px; */
+    }
+    /* .slider {
+        height: 100px;
+        color: red;
+    } */
+
+ .news {
+    height: 500px;
+ }
+
+ .adress a {
+    color: #d1121c;
+ }
+ .adress b {
+    color: #d1121c;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'Conv_HypatiaSansPro-Black_0';
+	src: url('fonts/Hepatia/HypatiaSansPro-Black_0.eot');
+	src: local('☺'), url('fonts/HypatiaSansPro-Black_0.woff') format('woff'), url('fonts/HypatiaSansPro-Black_0.ttf') format('truetype'), url('fonts/Hepatia/HypatiaSansPro-Black_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_HypatiaSansPro-Bold_0';
+	src: url('fonts/Hepatia/HypatiaSansPro-Bold_0.eot');
+	src: local('☺'), url('fonts/HypatiaSansPro-Bold_0.woff') format('woff'), url('fonts/HypatiaSansPro-Bold_0.ttf') format('truetype'), url('fonts/Hepatia/HypatiaSansPro-Bold_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_HypatiaSansPro-ExtraLight_0';
+	src: url('fonts/Hepatia/HypatiaSansPro-ExtraLight_0.eot');
+	src: local('☺'), url('fonts/HypatiaSansPro-ExtraLight_0.woff') format('woff'), url('fonts/HypatiaSansPro-ExtraLight_0.ttf') format('truetype'), url('fonts/Hepatia/HypatiaSansPro-ExtraLight_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_HypatiaSansPro-Light_0';
+	src: url('fonts/Hepatia/HypatiaSansPro-Light_0.eot');
+	src: local('☺'), url('fonts/HypatiaSansPro-Light_0.woff') format('woff'), url('fonts/HypatiaSansPro-Light_0.ttf') format('truetype'), url('fonts/Hepatia/HypatiaSansPro-Light_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_HypatiaSansPro-Regular_0';
+	src: url('fonts/Hepatia/HypatiaSansPro-Regular_0.eot');
+	src: local('☺'), url('fonts/HypatiaSansPro-Regular_0.woff') format('woff'), url('fonts/HypatiaSansPro-Regular_0.ttf') format('truetype'), url('fonts/Hepatia/HypatiaSansPro-Regular_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_HypatiaSansPro-Semibold_0';
+	src: url('fonts/Hepatia/HypatiaSansPro-Semibold_0.eot');
+	src: local('☺'), url('fonts/HypatiaSansPro-Semibold_0.woff') format('woff'), url('fonts/HypatiaSansPro-Semibold_0.ttf') format('truetype'), url('fonts/Hepatia/HypatiaSansPro-Semibold_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

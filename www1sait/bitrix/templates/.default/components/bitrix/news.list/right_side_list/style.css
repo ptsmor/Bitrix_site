@@ -1,0 +1,19 @@
+.news-right_all {
+	background: #ddd;
+	padding: 15px;
+	border: 1px solid #ccc;
+	min-height: 300px;
+}
+.news-right {
+	margin-bottom: 10px;
+	}
+.news-right a {
+font-style: italic;
+padding: 10px;
+color: #555;
+}
+.all_news {
+	float: right;
+	color: blue;
+	margin-bottom: 10px;
+}

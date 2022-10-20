@@ -1,0 +1,21 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list {
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#900;
+}
+
+img.preview_picture {
+        float:left;
+        box-shadow: 0px 0px 5px #999;
+margin-right: 15px;
+}
+
+.news-list p {
+margin: 10px 0px 0px 15px;
+}

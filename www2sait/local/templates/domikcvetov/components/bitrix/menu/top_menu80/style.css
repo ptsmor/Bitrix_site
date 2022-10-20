@@ -1,0 +1,29 @@
+ul.top_menu {
+	font-family: 'PT Serif', serif;
+	display: table;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.top_menu li{
+	display: table-cell;
+}
+ul.top_menu li a {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 19px;
+	text-decoration: none;
+	padding: 10px 0px;
+
+}
+ul.top_menu li a:hover {
+	background: linear-gradient(to left, #d3a4a4, #4a9fc7 100%);
+background-position: 0 100%;
+background-size: 100% 2px;
+background-repeat: repeat-x;
+}
+ul.top_menu li a.selected {
+	text-decoration: underline wavy rgb(13, 228, 138);
+}

@@ -1,0 +1,24 @@
+ul.left_menu {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul.left_menu h4 {
+	margin: 0px;
+	padding: 0px 0px 15px 0px;
+	color: rgb(31, 165, 218);
+}
+ul.left_menu li {
+margin-bottom: 10px;
+}
+ul.left_menu li a {
+	text-decoration: none;
+}
+ul.left_menu li a:hover {
+	text-decoration: underline;
+}
+ul.left_menu li a.selected {
+	text-decoration: underline;
+}
+
+

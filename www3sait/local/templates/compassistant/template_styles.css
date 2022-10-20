@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("fonts/fontawesome-webfont.eot?v=4.6.2");
+  src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.6.2") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff2?v=4.6.2") format("woff2"), url("fonts/fontawesome-webfont.woff?v=4.6.2") format("woff"), url("fonts/fontawesome-webfont.ttf?v=4.6.2") format("truetype"), url("fonts/fontawesome-webfont.svg?v=4.6.2#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.clb {
+  clear: both;
+  height: 0;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  background: url("images/header_fon.jpg");
+  background-size: cover;
+}
+.header .main_top_header a.logotop_main {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 50px 0px;
+}
+.header .main_top_header a.logotop_main span {
+  display: inline-block;
+  text-align: right;
+  padding-top: 3px;
+}
+.header .main_top_header a.logotop_main img {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: top;
+}
+.header .main_top_header a.trigger {
+  display: block;
+  width: 170px;
+  border: 1px #fff solid;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+  height: 35px;
+  line-height: 33px;
+  margin: 0px auto;
+  text-align: center;
+  transition: all 0.25s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+}
+.header .main_top_header a.trigger:hover {
+  background: #fff;
+  color: #333333;
+}
+.header .main_top_header .tel {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  color: #ffffff;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.workarea {
+  margin-top: 30px;
+}
+.workarea h1, .workarea h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  padding: 0px 0px 30px 0px;
+}
+.workarea p {
+  margin: 0;
+  padding: 0px 0px 30px 0px;
+  line-height: 24px;
+}
+
+.footer a.botlogo {
+  display: block;
+  margin: 25px 0px;
+}
+a.botlogo img {
+  width: 50px;
+}
+.footer p {
+  margin: 0;
+  padding-top: 40px;
+  font-size: 13px;
+  color: #666666;
+}
+.footer a.created {
+  display: block;
+  padding-top: 40px;
+  float: right;
+}
+.logotop_main img {
+  width: 100px;
+  margin: 10px;
+  float: left;
+}
+.logotop_main span {
+  float: right;
+  margin: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 8s linear infinite;
+  display: inline-block;
+      font-size: 19px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

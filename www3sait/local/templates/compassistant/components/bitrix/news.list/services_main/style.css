@@ -1,0 +1,84 @@
+.serv_title {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.serv_title h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.serv_title small {
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.service_main {
+  position: relative;
+  margin-top: 30px;
+  border: 1px #f0f0f0 solid;
+  transition: all 0.25s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  padding: 15px;
+}
+.service_main:hover {
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.service_main h3 {
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  margin: 15px 0px 0px 0px;
+}
+.service_main h3 img {
+  width: 50px;
+  float: left;
+  border-radius: 50%;
+  margin: -10px 10px 0px 0px;
+}
+.service_main p {
+  margin: 15px 0px;
+  padding: 0;
+  color: #777;
+}
+.service_main a {
+  background: #fff;
+  width: 100%;
+  height: 30px;
+  display: block;
+}
+.service_main a span {
+  display: block;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d2d2d;
+  margin: 0px 0px 0px 0px;
+}
+.service_main a i {
+  display: block;
+  font-style: normal;
+  float: left;
+  font-size: 12px;
+  border: 1px solid #417505;
+  border-radius: 3px;
+  color: #417505;
+  margin: 0px 0px 0px 10px;
+  padding: 3px 10px;
+  transition: all 0.25s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+}
+.service_main a i:hover {
+  background: #417505;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import "../../../../sass.scss";
+
+.topmenu {
+  background: $black;
+}
+
+.botmenu {
+  background: $black;
+  margin-top: 30px;
+}
+
+ul.top_menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    a {
+      display: block;
+      padding: 15px 20px;
+      text-decoration: none;
+      //text-transform: uppercase;
+      color: #ffffff;
+      @include animation_0_25;
+    }
+
+    //Второй уровень
+    ul {
+      // display: none;
+      position: absolute;
+      top: auto;
+      background: none;
+      height: 0;
+      @include animation_0_25;
+      overflow: hidden;
+      width: 300px;
+      border-top: none;
+      z-index: 250;
+      margin: 0;
+      padding: 0;
+      li {
+        display: block;
+        width: 100%;
+        background: #fff;
+        a {
+          color: $black;
+          border-left: 1px #ddd dashed;
+          border-right: 1px #ddd dashed;
+          border-bottom: 1px #ddd dashed;
+          @include animation_0_25;
+          &:hover {
+            background: $black;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    &:hover {
+      background: #fff;
+      a {
+        color: $black;
+      }
+      ul {
+        height: 450px;
+      }
+    }
+    //end Второй уровень
+
+  }
+}

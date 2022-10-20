@@ -1,0 +1,28 @@
+.footer ul {
+	height: 90px;
+	font-size: 23px;
+	list-style: none;
+	margin: 0px;
+	padding: 15px 0px;
+	display: table;
+	width: 100%;
+	font-family: 'fonts/Hepatia/HypatiaSansPro-Regular_0';
+}
+.footer ul li {
+	display: table-cell;
+}
+.footer ul li a {
+	color: #fff;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.footer ul li a:hover {
+	text-decoration: underline;
+}
+.footer ul li a.selected { 
+	text-decoration: underline;
+}
+
+
+

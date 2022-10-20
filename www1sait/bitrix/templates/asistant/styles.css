@@ -1,0 +1,25 @@
+h1 {
+  margin: 0px;
+  font-size: 22px;
+}
+h2 {
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 19px;
+  }
+article p {
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 13px;
+}
+article ul {
+    margin: 15px 0px 15px 15px;
+ 
+}
+article ol {
+   
+}
+article li {
+    margin: 5px 0px;
+    
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import "../../../../sass.scss";
+
+.serv_title {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  small {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+.service_main {
+  position: relative;
+  margin-top: 30px;
+  border: 1px #f0f0f0 solid;
+  @include animation_0_25;
+  padding: 15px;
+  &:hover {
+    @include box-shadow;
+  }
+  h3 {
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    margin: 15px 0px 0px 0px;
+    img {
+      width: 50px;
+      float: left;
+      border-radius: 50%;
+      margin: -10px 10px 0px 0px;
+    }
+  }
+  p {
+    margin: 15px 0px;
+    padding: 0;
+    color: #777;
+  }
+  a {
+    background: #fff;
+    width: 100%;
+    height: 30px;
+    display: block;
+    span {
+      display: block;
+      float: left;
+      font-size: 16px;
+      font-weight: bold;
+      color: $black;
+      margin: 0px 0px 0px 0px;
+    }
+    i {
+      display: block;
+      font-style: normal;
+      float: left;
+      font-size: 12px;
+      border: 1px solid $green;
+      border-radius: 3px;
+      color: $green;
+      margin: 0px 0px 0px 10px;
+      padding: 3px 10px;
+      @include animation_0_25;
+      &:hover {
+        background: $green;
+        color: #ffffff;
+      }
+    }
+  }
+}
+

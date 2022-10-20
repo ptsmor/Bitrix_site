@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import "../../../../sass.scss";
+
+.searchform {
+  float: right;
+  width: 100%;
+  position: relative;
+  padding: 10px 0px;
+  input[type="text"] {
+    background: #737373;
+    width: 100%;
+    border:none;
+    height: 30px;
+    padding: 0px 10px;
+  }
+  input[type="submit"] {
+    color: #ffffff;
+    background: none;
+    border:none;
+    position: absolute;
+    right: 0;
+    top: 13px;
+    z-index: 20;
+  }
+}
